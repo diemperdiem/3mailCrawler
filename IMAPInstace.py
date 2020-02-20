@@ -58,10 +58,8 @@ def emailCrawl():
         deletePDF()
         # User
         username = 'XXXXXX'
-
         # Pass
         password = 'XXXXXX'
-
         mail = imaplib.IMAP4_SSL('outlook.office365.com', 993)
 
         mail.login(username, password)
